@@ -12,26 +12,26 @@ function playSound(key) {
     let audioFile = '';
 
     switch (key) {
-        case 'w':
+        case 'أ':
             audioFile = 'sounds/tom-1.mp3';
             break;
-        case 'a':
+        case 'ب':
             audioFile = 'sounds/tom-2.mp3';
             break;
-        case 's':
+        case 'ت':
             audioFile = 'sounds/tom-3.mp3';
             break;
-        case 'd':
+        case 'ص':
             audioFile = 'sounds/tom-4.mp3';
             break;
-        case 'j':
+        case 'ض':
             audioFile = 'sounds/snare.mp3';
             break;
-        case 'k':
+        case 'د':
             audioFile = 'sounds/crash.mp3';
             break;
-        case 'l':
-            audioFile = 'sounds/kick-bass.mp3';
+        case 'إدلب':
+            audioFile = 'sounds/idleb.mp3';
             break;
         default:
             console.log("No sound assigned for this key: " + key);
